@@ -16,7 +16,7 @@ public class PostmanTest {
                 .when()
                 .post("/post")
                 .then()
-                .body("data", equalTo("some"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
